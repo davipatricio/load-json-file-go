@@ -8,7 +8,6 @@ import (
 	"bytes"
 )
 
-// This package should Read and parse a JSON file and strip UTF-8 BOM
 func LoadJsonFile(path string) (map[string]interface{}, error) {
 	// Variable used to store the JSON object on json.Unmarshal
 	var jsonObject map[string]interface{}
